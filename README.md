@@ -28,10 +28,10 @@
 <!-- PROJECT DESCRIPTION -->
 
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
 
-**Personal-portfolio** is an app to showcase my personal achievements.
+**Capstone project** is an app to showcase best practices of HTML code, CSS and DOM Manipulation.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,7 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-This is to showcase my abilities.
+This is to showcase best practices in HTML code, CSS and Javascript DOM Manipulation.
 
 - **Web designs**
 
@@ -55,7 +55,7 @@ This is to showcase my abilities.
 
 ## 🚀 Live Demo <a name="live-demo" title="Coming Soon"></a>
 
-https://sawmon71293.github.io/personal-portfolio/
+This page is yet to be deployed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,10 +115,9 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-I plan to add more personal project links this project:
+I plan to add more new features to this project:
 
-- [ ] **Implement a nice UI for great user experience**
-- [ ] **Create more projects**
+- [ ] **Create new features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
