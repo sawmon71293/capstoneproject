@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fund Raising Concert</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="wrap ps-3 pb-5 pe-2">
+      <header class="menu-wrap">
+        <nav>
+          <input
+            type="checkbox"
+            class="toggler"
+            id="toggle"
+            onclick="toggle()"
+          />
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
+            <div class="overlay">
+              <div>
+                <ul>
+                  <li><a href="#about" class="nav-links">About</a></li>
+                  <li><a href="#works" class="nav-links">Program</a></li>
+                  <li><a href="#works" class="nav-links">Buy Tickets</a></li>
+                  <li><a href="#works" class="nav-links">Sponsor</a></li>
+                  <li><a href="#works" class="nav-links">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="intro">
+        <p id="introText">"Hello! Sharing World"</p>
+        <h1 class="heading mb-4 me-3">
+          Fund Raising Concert
+          <br />
+          for Displaced People
+          <br />
+          in Myanmar 2023
+        </h1>
+      </div>
+      <div class="mb-lg-5">
+        <p class="detail p-2">
+          A fund raising concert for all the Displaced people in Myanmar after
+          the coup, creating a positive change with people from all over the
+          country and around the world is taking place in April, in Myanmar
+        </p>
+        <h2 class="day">2023.04.07(FRI) ~ 10(SUN)</h2>
+        <p class="place">@National Kandawgyi Gardens</p>
+      </div>
+    </section>
+    <section class="mainProgram pb-lg-4">
+      <p class="title pt-4 pb-4 text-center">Main Program</p>
+      <div class="program">
+        <div class="d-flex justify-content-around align-items-center transbox">
+          <i class="fa-solid fa-pen-fancy fa-xl icon ms-2"></i>
+          <p class="program-title ms-5">Autographs</p>
+          <p class="programDetail ms-5">
+            Meet the famous artists, get their autographs and taking photos with
+            your idols
+          </p>
+        </div>
+      </div>
+      <div class="program">
+        <div class="d-flex align-items-center justify-content-around transbox">
+          <i class="fa-solid fa-guitar fa-xl icon ms-2"></i>
+          <p class="program-title ms-5">Performance</p>
+          <p class="programDetail ms-5">
+            Performance of different artists around the country. Enjoy pop, rock
+            and rnb music.
+          </p>
+        </div>
+      </div>
+      <div class="program">
+        <div class="d-flex justify-content-around align-items-center transbox">
+          <i class="fa-solid fa-gift fa-xl icon ms-2"></i>
+          <p class="program-title ms-5">Give Away</p>
+          <p class="programDetail ms-5">
+            Get T-shirts and autographed presents from your artists in return of
+            making donations to the displaced people.
+          </p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center buttonWrapper">
+        <button class="buyTicket">Buy Tickets for the Concert</button>
+      </div>
+    </section>
+    <section class="ps-4 featureSingers pe-4 pb-5">
+      <div class="mt-5">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2 class="singerList text-center">Featured Singers</h2>
+          <hr class="line" />
+        </div>
+        <div class="singer-wrapper d-flex mt-5">
+          <div><img src="./img/layphyu.jpg" alt="Lay Phyu" /></div>
+          <div class="ms-5 singerFact">
+            <h3>Lay Phyu</h3>
+            <p class="description">Famous Burmese Rock Singer</p>
+            <p class="singerDetail">
+              A Burmese rock star and guitarist. He is the lead vocalist of the
+              popular rock band Iron Cross. Lay is considered the most
+              commercially successful male singer in the history of Burmese rock
+              music.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners pb-5">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center mb-4"
+      >
+        <p class="text-center pt-4">Partner</p>
+        <hr class="line" />
+      </div>
+      <div class="d-flex justify-content-around flex-wrap ms-2">
+        <div class="d-flex align-items-center me-4 mb-3">
+          <img class="rounded-3 me-2" src="./img/kia.png" alt="Kia Motors" />
+          <span>Kia</span>
+        </div>
+        <div class="d-flex align-items-center me-3 mb-2">
+          <img class="rounded-3 me-2 mt-2" src="./img/Fame.png" alt="Fame" />
+          <span>Fame</span>
+        </div>
+        <div class="d-flex align-items-center me-3 mb-2">
+          <img class="rounded-3 me-2 mt-2" src="./img/oppo.jpeg" alt="oppo" />
+          <span>oppo</span>
+        </div>
+        <div class="d-flex align-items-center me-3 mb-2">
+          <img class="rounded-3 me-2" src="./img/ford.jpeg" alt="ford" />
+          <span>ford</span>
+        </div>
+        <div class="d-flex align-items-center me-3 mb-2">
+          <img class="rounded-3 me-2 mt-2" src="./img/pepsi.jpeg" alt="pepsi" />
+          <span>pepsi</span>
+        </div>
+      </div>
+    </section>
+    <footer class="d-flex justify-content-around mt-5">
+      <div class="logo d-flex me-4">
+        <img src="./img/logo.png" alt="Iron Cross Band" />
+        <span class="logoText">
+          Iron Cross
+          <br />
+          Myanmar
+        </span>
+      </div>
+      <div class="ms-3">
+        <p>2023 Iron Cross Myanmar</p>
+        <p>All rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"
+      integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
