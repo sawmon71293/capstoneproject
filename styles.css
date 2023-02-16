@@ -10,6 +10,8 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -100,24 +102,6 @@ body {
   transition: opacity 0.4s ease;
 }
 
-.menu-wrap .menu > div > div > ul > li {
-  list-style: none;
-  color: #fff;
-  padding-bottom: 40px;
-  padding-left: 24px;
-}
-
-.menu-wrap .menu > div > div > ul > li > a {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.4s ease;
-  height: 24px;
-}
-
 /* Hamburger Lines - Top & Bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
@@ -170,6 +154,16 @@ body {
   opacity: 0.85;
 }
 
+.nav-wrap li {
+  list-style-type: none;
+}
+
+.nav-wrap li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
 #introText {
   font-size: 20px;
   font-weight: 400;
@@ -188,6 +182,10 @@ body {
 .intro {
   padding-top: 100px;
   margin-left: 22px;
+}
+
+.nav-links:active {
+  color: #e88b84;
 }
 
 .blur {
@@ -363,6 +361,7 @@ div.transbox {
   height: 200px;
   background-image: url(./img/concert1.jpg);
   background-size: cover;
+  margin-bottom: 5px;
 }
 
 .concert-wrapper1 > div {
@@ -440,15 +439,52 @@ div.transbox {
   margin-right: 1rem;
 }
 
-.topbar {
+.page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+.about-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menubar li {
+  list-style-type: none;
+}
+
+.brand {
   display: none;
+  list-style-type: none;
 }
 
 @media (min-width: 768px) {
   .brand img {
     width: 90px;
     height: 70px;
-    margin-top: 7px;
+    margin-top: -11px;
+  }
+
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-left: 24px;
+  }
+
+  .menu-wrap .menu > div > div > ul > li > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    height: 24px;
+  }
+
+  .brand {
+    display: block;
   }
 
   .topbar {
@@ -547,7 +583,7 @@ div.transbox {
   }
 
   .detail {
-    max-width: 530px;
+    max-width: 60%;
   }
 
   .detail-wrap {
@@ -638,5 +674,99 @@ div.transbox {
 
   .rightsDetail {
     display: block;
+  }
+
+  .about-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .detail-about {
+    padding: 10px 30px;
+  }
+
+  .contact-about {
+    text-align: center;
+  }
+
+  .iron-cross {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cross-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .cross-wrap::after {
+    content: '';
+    border-bottom: 1px solid rgba(198, 191, 191, 0.5);
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    z-index: -1;
+  }
+
+  .about-past {
+    margin-top: 6rem;
+  }
+
+  .concert-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .concert-wrapper1 {
+    width: 30%;
+  }
+  .concert-wrapper2 {
+    width: 30%;
+  }
+
+  .page-container {
+    position: relative;
+    min-height: 100%;
+  }
+  .content-wrap {
+    padding-bottom: 200px;
+  }
+
+  .about-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #2e2e2e;
+    height: 200px;
+    width: 100%;
+    color: #f3f3f3;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-footer span {
+    color: #f3f3f3;
+  }
+
+  .rightsDetail-about {
+    margin-left: 30px;
+    max-width: 500px;
+  }
+
+  .logoText {
+    margin-left: 5px;
+  }
+
+  .logo-about {
+    padding: 50px 0px;
   }
 }
