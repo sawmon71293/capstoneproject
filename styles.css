@@ -70,6 +70,24 @@ body {
   justify-content: space-between;
 }
 
+.concert-wrapper1 > div {
+  background-color: rgba(234, 103, 32, 0.7);
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  color: #fffeff;
+}
+
+.concert-wrapper2 > div {
+  background-color: rgba(234, 103, 32, 0.7);
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  color: #fffeff;
+}
+
 .menu-wrap .menu > div {
   background: var(--overlay-color);
   width: 200vw;
@@ -158,6 +176,11 @@ body {
   list-style-type: none;
 }
 
+.topbar a {
+  color: #f4f4f4;
+  font-size: 10px;
+}
+
 .nav-wrap li a {
   text-decoration: none;
   color: white;
@@ -197,6 +220,7 @@ body {
   background-color: #f7f7f7;
   border: 2px solid #fff;
   line-height: 1.8;
+
   /* min-width: 524px; */
 }
 
@@ -230,6 +254,7 @@ div.transbox {
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
+
   /* min-width: 523px; */
   height: 116px;
   display: flex;
@@ -309,6 +334,11 @@ div.transbox {
   margin-bottom: 0;
 }
 
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
 .partners > div > div > img {
   width: 30px;
   height: 30px;
@@ -329,11 +359,6 @@ div.transbox {
 
   padding: 0;
   text-align: center;
-}
-
-.logo img {
-  width: 50px;
-  height: 50px;
 }
 
 .logoText {
@@ -364,15 +389,6 @@ div.transbox {
   margin-bottom: 5px;
 }
 
-.concert-wrapper1 > div {
-  background-color: rgba(234, 103, 32, 0.7);
-  bottom: 0;
-  z-index: 4;
-  width: 100%;
-  height: 100%;
-  color: #fffeff;
-}
-
 .concert-wrapper2 {
   width: 90%;
   height: 200px;
@@ -380,24 +396,10 @@ div.transbox {
   background-size: cover;
 }
 
-.concert-wrapper2 > div {
-  background-color: rgba(234, 103, 32, 0.7);
-  bottom: 0;
-  z-index: 4;
-  width: 100%;
-  height: 100%;
-  color: #fffeff;
-}
-
 .topbar {
   display: none;
   height: 26px;
   background-color: #3e3e3e;
-}
-
-.topbar a {
-  color: #f4f4f4;
-  font-size: 10px;
 }
 
 .singer-wrapper {
@@ -420,6 +422,7 @@ div.transbox {
 .footer-wrap {
   display: flex;
   justify-content: space-between;
+  margin-left: 1.5rem;
 }
 
 .wholeProgram {
@@ -428,10 +431,6 @@ div.transbox {
 
 .rightsDetail {
   display: none;
-}
-
-.footer-wrap {
-  margin-left: 1.5rem;
 }
 
 .rights {
@@ -463,6 +462,21 @@ div.transbox {
     width: 90px;
     height: 70px;
     margin-top: -11px;
+  }
+
+  .buttonWrapper a {
+    margin-top: 30px;
+    color: #bdbdc5;
+  }
+
+  .nav-wrap li {
+    margin-right: 60px;
+    margin-top: 5px;
+  }
+
+  .nav-wrap li a {
+    text-decoration: none;
+    color: #8d8d8d;
   }
 
   .menu-wrap .menu > div > div > ul > li {
@@ -540,16 +554,6 @@ div.transbox {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .nav-wrap li {
-    margin-right: 60px;
-    margin-top: 5px;
-  }
-
-  .nav-wrap li a {
-    text-decoration: none;
-    color: #8d8d8d;
   }
 
   .nav-wrap .cc {
@@ -633,11 +637,6 @@ div.transbox {
 
   .buttonWrapper .buyTicket {
     display: none;
-  }
-
-  .buttonWrapper a {
-    margin-top: 30px;
-    color: #bdbdc5;
   }
 
   .singer-wrapper {
@@ -730,6 +729,7 @@ div.transbox {
   .concert-wrapper1 {
     width: 30%;
   }
+
   .concert-wrapper2 {
     width: 30%;
   }
@@ -738,6 +738,7 @@ div.transbox {
     position: relative;
     min-height: 100%;
   }
+
   .content-wrap {
     padding-bottom: 200px;
   }
@@ -767,6 +768,6 @@ div.transbox {
   }
 
   .logo-about {
-    padding: 50px 0px;
+    padding: 50px 0;
   }
 }
