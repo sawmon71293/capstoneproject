@@ -206,7 +206,8 @@ body {
   margin-left: 22px;
 }
 
-.nav-links:active {
+.nav-links:active,
+.nav-links:hover {
   color: #e88b84;
 }
 

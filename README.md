@@ -2,8 +2,6 @@
 
 ![S](https://user-images.githubusercontent.com/102650102/212134190-7ac324a6-f323-4c2b-ac30-44add2cedd26.png)
 
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -19,7 +17,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [  Credits and Acknowledgements ] (#credits)
+- [ Credits and Acknowledgements ] (#credits)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -28,9 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-
 # 📖 Capstone Project <a name="about-project"></a>
-
 
 **Capstone project** is an app to showcase best practices of HTML code, CSS and DOM Manipulation.
 
@@ -54,9 +50,10 @@ This is to showcase best practices in HTML code, CSS and Javascript DOM Manipula
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo" title="Coming Soon"></a>
+## 🚀 Live Demo and video description <a name="live-demo" title="Coming Soon"></a>
 
-This page is yet to be deployed.
+- Livelink: [@Fundraising Concert](https://sawmon71293.github.io/capstoneproject/)
+- Video Description [@Video](https://www.loom.com/share/c821499fbce44882830027dee5655e12)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,6 +111,7 @@ To run the project, execute the following command:
 
 ## Credits and Acknowledgements <a name="credits"></a>
 
+- Original Design by [@Cindy Shin](https://www.behance.net/adagio07)
 
 <!-- FUTURE FEATURES -->
 
