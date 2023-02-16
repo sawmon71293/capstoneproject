@@ -21,7 +21,6 @@ body {
 
 .wrap {
   position: relative;
-  /* min-width: 562px; */
   height: auto;
   background-image: url(./img/music.jpg);
   background-size: cover;
@@ -356,7 +355,6 @@ div.transbox {
   height: 4px;
   border: 0;
   border-top: 4px solid #be473f;
-
   padding: 0;
   text-align: center;
 }

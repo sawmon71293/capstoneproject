@@ -19,6 +19,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [  Credits and Acknowledgements ] (#credits)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -110,6 +111,9 @@ To run the project, execute the following command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Credits and Acknowledgements <a name="credits"></a>
+
 
 <!-- FUTURE FEATURES -->
 
