@@ -187,6 +187,12 @@ body {
 
 .intro {
   padding-top: 100px;
+  margin-left: 22px;
+}
+
+.blur {
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
 }
 
 .detail {
@@ -194,6 +200,10 @@ body {
   border: 2px solid #fff;
   line-height: 1.8;
   /* min-width: 524px; */
+}
+
+.detail-wrap {
+  margin-left: 1rem;
 }
 
 .day {
@@ -224,6 +234,15 @@ div.transbox {
   color: #fff;
   /* min-width: 523px; */
   height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 1.5rem;
+}
+
+.transbox:hover {
+  border: 1px solid #fff;
 }
 
 .title {
@@ -234,16 +253,18 @@ div.transbox {
 
 .program-title {
   color: #db4c3b;
-  font-size: 18px;
+  font-size: 15px;
+  padding-right: 5px;
 }
 
 .transbox.icon {
   color: #fff;
   font-size: 90px;
+  margin-left: 1rem;
 }
 
 .programDetail {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .buyTicket {
@@ -264,7 +285,7 @@ div.transbox {
   color: #313131;
 }
 
-.singer-wrapper img {
+.singer img {
   width: 142px;
   height: 142px;
 }
@@ -287,6 +308,7 @@ div.transbox {
 .partners p {
   color: #f5f5f7;
   font-size: 24px;
+  margin-bottom: 0;
 }
 
 .partners > div > div > img {
@@ -303,10 +325,10 @@ div.transbox {
 .line {
   display: block;
   width: 49px;
-  height: 5px;
+  height: 4px;
   border: 0;
   border-top: 4px solid #be473f;
-  margin: 1em 0;
+
   padding: 0;
   text-align: center;
 }
@@ -324,4 +346,297 @@ div.transbox {
 
 .fundLink {
   color: #191516;
+}
+
+.contact {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.concert {
+  color: #292929;
+}
+
+.concert-wrapper1 {
+  width: 90%;
+  height: 200px;
+  background-image: url(./img/concert1.jpg);
+  background-size: cover;
+}
+
+.concert-wrapper1 > div {
+  background-color: rgba(234, 103, 32, 0.7);
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  color: #fffeff;
+}
+
+.concert-wrapper2 {
+  width: 90%;
+  height: 200px;
+  background-image: url(./img/concert2.jpg);
+  background-size: cover;
+}
+
+.concert-wrapper2 > div {
+  background-color: rgba(234, 103, 32, 0.7);
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  color: #fffeff;
+}
+
+.topbar {
+  display: none;
+  height: 26px;
+  background-color: #3e3e3e;
+}
+
+.topbar a {
+  color: #f4f4f4;
+  font-size: 10px;
+}
+
+.singer-wrapper {
+  margin-left: 8px;
+}
+
+.partners-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wholeProgram {
+  display: none;
+}
+
+.rightsDetail {
+  display: none;
+}
+
+.footer-wrap {
+  margin-left: 1.5rem;
+}
+
+.rights {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.topbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .brand img {
+    width: 90px;
+    height: 70px;
+    margin-top: 7px;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .menu-wrap {
+    background-color: #fff;
+  }
+
+  .menu-wrap .hamburger {
+    display: none;
+  }
+
+  .menu-wrap .menu {
+    position: relative;
+    width: 100%;
+    visibility: visible;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    transform: scale(1);
+  }
+
+  .menu-wrap .menu > div {
+    position: relative;
+    margin-top: 41px;
+    background: none;
+    width: 100vw;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transform: scale(1);
+    padding-top: 0;
+  }
+
+  .menu-wrap .menu > div > div {
+    width: 100%;
+    max-width: 100%;
+    opacity: 1;
+  }
+
+  .menubar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-wrap li {
+    margin-right: 60px;
+    margin-top: 5px;
+  }
+
+  .nav-wrap li a {
+    text-decoration: none;
+    color: #8d8d8d;
+  }
+
+  .nav-wrap .cc {
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 180px;
+    height: 50px;
+    padding-top: 7px;
+    text-align: center;
+    border: 6px solid orangered;
+  }
+
+  .nav-wrap li .textcc {
+    color: orangered;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 15rem;
+  }
+
+  #introText {
+    margin-left: 3rem;
+  }
+
+  .heading {
+    margin-left: 3rem;
+  }
+
+  .detail {
+    max-width: 530px;
+  }
+
+  .detail-wrap {
+    margin-left: 18rem;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .contact {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .program-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .program .transbox {
+    flex-direction: column;
+    width: 174px;
+    height: 197px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+  }
+
+  .program {
+    margin-right: 5px;
+  }
+
+  .programDetail {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  .icon {
+    margin-bottom: 7px;
+  }
+
+  .buttonWrapper .buyTicket {
+    display: none;
+  }
+
+  .buttonWrapper a {
+    margin-top: 30px;
+    color: #bdbdc5;
+  }
+
+  .singer-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 18rem;
+    margin-right: 6rem;
+  }
+
+  .partners-wrap {
+    justify-content: center;
+  }
+
+  .partner {
+    margin-left: 30px;
+  }
+
+  .footer-wrap {
+    justify-content: center;
+    margin-left: 18rem;
+  }
+
+  .logo {
+    margin-right: 50px;
+  }
+
+  .rights {
+    margin-right: 5rem;
+  }
+
+  .wholeProgram {
+    display: block;
+  }
+
+  .rightsDetail {
+    display: block;
+  }
 }

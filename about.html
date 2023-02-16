@@ -21,114 +21,165 @@
     />
   </head>
   <body>
-    <section class="wrap ps-3 pb-5 pe-2">
-      <header class="menu-wrap">
-        <nav>
-          <input
-            type="checkbox"
-            class="toggler"
-            id="toggle"
-            onclick="toggle()"
-          />
-          <div class="hamburger"><div></div></div>
-          <div class="menu">
-            <div class="overlay">
-              <div>
-                <ul>
-                  <li><a href="#about" class="nav-links">About</a></li>
-                  <li><a href="#works" class="nav-links">Program</a></li>
-                  <li><a href="#works" class="nav-links">Buy Tickets</a></li>
-                  <li><a href="#works" class="nav-links">Sponsor</a></li>
-                  <li><a href="#works" class="nav-links">News</a></li>
-                </ul>
+    <div class="topbar d-flex justify-content-end align-items-center">
+      <a class="text-decoration-none me-4" href="">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a class="text-decoration-none me-4" href="">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a class="text-decoration-none me-4" href="">Log Out</a>
+      <a class="text-decoration-none me-4" href="">My Page</a>
+      <a class="text-decoration-none me-4" href="">Burmese</a>
+    </div>
+    <section class="main">
+      <div>
+        <section class="wrap pb-5">
+          <header class="menu-wrap">
+            <nav>
+              <input
+                type="checkbox"
+                class="toggler"
+                id="toggle"
+                onclick="toggle()"
+              />
+              <div class="hamburger"><div></div></div>
+              <div class="menu">
+                <div class="overlay">
+                  <div>
+                    <ul class="menubar">
+                      <li>
+                        <a href="#" class="brand">
+                          <img src="./img/logo.png" alt="logo" />
+                        </a>
+                      </li>
+                      <li>
+                        <ul class="nav-wrap">
+                          <li><a href="about.html" class="nav-links">About</a></li>
+                          <li><a href="#" class="nav-links">Program</a></li>
+                          <li>
+                            <a href="#works" class="nav-links">Buy Tickets</a>
+                          </li>
+                          <li><a href="#works" class="nav-links">Sponsor</a></li>
+                          <li><a href="#works" class="nav-links">News</a></li>
+                          <li class="cc">
+                            <a href="" class="textcc">Fundraising Concert</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
+            </nav>
+          </header>
+          <div class="intro">
+            <p id="introText" class="hide">"Hello! Sharing World"</p>
+            <h1 class="heading mb-4 me-3">
+              Fund Raising
+              <br />
+              Concert in Myanmar 2023
+            </h1>
+          </div>
+          <div class="mb-lg-5 detail-wrap">
+            <p class="detail">
+              The concert brings together the community of activists, experts and
+              all the people around the world. This year, we hope to expand our
+              invitation list including organizations and individuals
+            </p>
+            <p class="contact">
+              Please contact us per Email for any further questions
+              <br />
+              about the Fund Raising concert 2023!
+              <a href="#" class="fundLink">fundraising2023@icmyanmar.org</a>
+            </p>
+          </div>
+        </section>
+        <section class="mb-5">
+          <div class="p-3 text-center concert">
+            <div class="p-4">
+              <h2>
+                Iron Cross Fund Raising Concert 2023 Logo
+              </h2>
+              <p>
+                The logo of Iron Cross Fund Raising concert 2023 was decided through
+                the logo competition from 8.June to 7.July.
+              </p>
+            </div>
+            <div class="border mt-2">
+              <img src="./img/logo.png" alt="Iron Cross Logo" />
             </div>
           </div>
-        </nav>
-      </header>
-      <div class="intro">
-        <p id="introText">"Hello! Sharing World"</p>
-        <h1 class="heading mb-4 me-3">
-          Fund Raising Concert in Myanmar 2023
-        </h1>
-      </div>
-      <div class="mb-lg-5">
-        <p class="detail">
-          The concert brings together the community of activists, experts and
-          all the people around the world. This year, we hope to expand our
-          invitation list including organizations and individuals
-        </p>
-
-        <p class="text-center ms-5 me-5">
-          Please contact us per Email for any further questions
-          <br />
-          about the Fund Raising concert 2023!
-          <a href="#" class="fundLink">fundraising2023@icmyanmar.org</a>
-        </p>
+          <div>
+            <h2 class="text-center">See the past Iron Cross Concerts</h2>
+            <p class="text-center me-3 ms-3">
+              Take a look at the last two Iron Cross Concerts which took place in
+              Yangon and in Mandalay
+            </p>
+          </div>
+          <div class="concert-wrapper1 ms-3 mb-4">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <p class="d-block h1">2020</p>
+              <p class="d-block">Fundraising Concert in Yangon</p>
+            </div>
+          </div>
+          <div class="concert-wrapper2 ms-3">
+            <div
+              class="d-flex flex-column align-items-center justify-content-center"
+            >
+              <p class="d-block h1">2021</p>
+              <p class="d-block">Fundraising Concert in Mandalay</p>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center concert2"
+          ></div>
+        </section>
+        <section class="partners pb-5">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <p class="text-center pt-4">Partner</p>
+            <hr class="line" />
+          </div>
+          <div class="d-flex justify-content-around flex-wrap ms-2">
+            <div class="d-flex align-items-center me-4 mb-3">
+              <img class="rounded-3 me-2" src="./img/kia.png" alt="Kia Motors" />
+              <span>Kia</span>
+            </div>
+            <div class="d-flex align-items-center me-3 mb-2">
+              <img class="rounded-3 me-2 mt-2" src="./img/Fame.png" alt="Fame" />
+              <span>Fame</span>
+            </div>
+            <div class="d-flex align-items-center me-3 mb-2">
+              <img class="rounded-3 me-2 mt-2" src="./img/oppo.jpeg" alt="oppo" />
+              <span>oppo</span>
+            </div>
+            <div class="d-flex align-items-center me-3 mb-2">
+              <img class="rounded-3 me-2" src="./img/ford.jpeg" alt="ford" />
+              <span>ford</span>
+            </div>
+            <div class="d-flex align-items-center me-3 mb-2">
+              <img class="rounded-3 me-2 mt-2" src="./img/pepsi.jpeg" alt="pepsi" />
+              <span>pepsi</span>
+            </div>
+          </div>
+        </section>
+        <footer class="d-flex justify-content-around mt-5">
+          <div class="logo d-flex me-4">
+            <img src="./img/logo.png" alt="Iron Cross Band" />
+            <span class="logoText">
+              Iron Cross
+              <br />
+              Myanmar
+            </span>
+          </div>
+          <div class="ms-3">
+            <p>2023 Iron Cross Myanmar</p>
+            <p>All rights Reserved</p>
+          </div>
+        </footer>
       </div>
     </section>
-    <section>
-      <div>
-        <h2>Iron Cross Fund Raising Concert 2023 Logo</h2>
-        <p>
-          The logo of Iron Cross Fund Raising concert 2023 was decided through
-          the logo competition from 8.June to 7.July.
-        </p>
-        <img src="./img/logo.png" alt="Iron Cross Logo" />
-      </div>
-      <div>
-        <h2>See the past Iron Cross Fund Raising Concerts</h2>
-        <p>
-          Take a look at the last two Iron Cross Concerts which took place in
-          Yangon and in Mandalay
-        </p>
-      </div>
-      <div><img src="" alt="" /></div>
-      <div><img src="" alt="" /></div>
-    </section>
-    <section class="partners pb-5">
-      <div
-        class="d-flex flex-column justify-content-center align-items-center mb-4"
-      >
-        <p class="text-center pt-4">Partner</p>
-        <hr class="line" />
-      </div>
-      <div class="d-flex justify-content-around flex-wrap ms-2">
-        <div class="d-flex align-items-center me-4 mb-3">
-          <img class="rounded-3 me-2" src="./img/kia.png" alt="Kia Motors" />
-          <span>Kia</span>
-        </div>
-        <div class="d-flex align-items-center me-3 mb-2">
-          <img class="rounded-3 me-2 mt-2" src="./img/Fame.png" alt="Fame" />
-          <span>Fame</span>
-        </div>
-        <div class="d-flex align-items-center me-3 mb-2">
-          <img class="rounded-3 me-2 mt-2" src="./img/oppo.jpeg" alt="oppo" />
-          <span>oppo</span>
-        </div>
-        <div class="d-flex align-items-center me-3 mb-2">
-          <img class="rounded-3 me-2" src="./img/ford.jpeg" alt="ford" />
-          <span>ford</span>
-        </div>
-        <div class="d-flex align-items-center me-3 mb-2">
-          <img class="rounded-3 me-2 mt-2" src="./img/pepsi.jpeg" alt="pepsi" />
-          <span>pepsi</span>
-        </div>
-      </div>
-    </section>
-    <footer class="d-flex justify-content-around mt-5">
-      <div class="logo d-flex me-4">
-        <img src="./img/logo.png" alt="Iron Cross Band" />
-        <span class="logoText">
-          Iron Cross
-          <br />
-          Myanmar
-        </span>
-      </div>
-      <div class="ms-3">
-        <p>2023 Iron Cross Myanmar</p>
-        <p>All rights Reserved</p>
-      </div>
-    </footer>
   </body>
 </html>
