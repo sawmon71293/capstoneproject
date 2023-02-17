@@ -52,7 +52,7 @@ This is to showcase best practices in HTML code, CSS and Javascript DOM Manipula
 ## 🚀 Live Demo and video description <a name="live-demo" title="Coming Soon"></a>
 
 - Livelink: [@Fundraising Concert](https://sawmon71293.github.io/capstoneproject/)
-- Video Description [@Video](https://www.loom.com/share/c821499fbce44882830027dee5655e12)
+- Video Description [@Video](https://www.loom.com/share/29fcd2af35f949df9d875132d8d999e3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
