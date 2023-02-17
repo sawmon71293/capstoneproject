@@ -22,134 +22,158 @@
   </head>
   <body>
     <section class="main">
-      <div class="topbar">
-        <a class="text-decoration-none me-4" href="">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-        <a class="text-decoration-none me-4" href="">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a class="text-decoration-none me-4" href="">Log Out</a>
-        <a class="text-decoration-none me-4" href="">My Page</a>
-        <a class="text-decoration-none me-4" href="">Burmese</a>
-      </div>
-      <section class="wrap pb-5">
-        <header class="menu-wrap">
-          <nav>
-            <input
-              type="checkbox"
-              class="toggler"
-              id="toggle"
-              onclick="toggle()"
-            />
-            <div class="hamburger"><div></div></div>
-            <div class="menu">
-              <div class="overlay">
-                <div>
-                  <ul class="menubar">
-                    <li>
-                      <a href="#" class="brand">
-                        <img src="./img/logo.png" alt="logo" />
-                      </a>
-                    </li>
-                    <li>
-                      <ul class="nav-wrap">
-                        <li>
-                          <a href="about.html" class="nav-links about-link">
-                            About
-                          </a>
-                        </li>
-                        <li><a href="#" class="nav-links">Program</a></li>
-                        <li>
-                          <a href="#works" class="nav-links">Buy Tickets</a>
-                        </li>
-                        <li><a href="#works" class="nav-links">Sponsor</a></li>
-                        <li><a href="#works" class="nav-links">News</a></li>
-                        <li class="cc">
-                          <a href="index.html" class="textcc">
-                            Fundraising Concert
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+      <div class="backdrop">
+        <section class="wrap pb-5">
+          <header class="menu-wrap">
+            <div class="topbar">
+              <ul class="list-unstyled d-flex mt-2">
+                <li>
+                  <a class="text-decoration-none me-4" href="">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none me-4" href="">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-decoration-none me-4" href="">Log Out</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none me-4" href="">My Page</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none me-4" href="">Burmese</a>
+                </li>
+              </ul>
+            </div>
+            <nav>
+              <input
+                type="checkbox"
+                class="toggler"
+                id="toggle"
+                onclick="toggle()"
+              />
+              <div class="hamburger"><div></div></div>
+              <div class="menu">
+                <div class="overlay">
+                  <div>
+                    <ul class="menubar">
+                      <li>
+                        <a href="#" class="brand">
+                          <img src="./img/logo.png" alt="logo" />
+                        </a>
+                      </li>
+                      <li>
+                        <ul class="nav-wrap">
+                          <li>
+                            <a href="index.html" class="nav-links home">
+                              Home
+                            </a>
+                          </li>
+                          <li>
+                            <a href="about.html" class="nav-links about-link">
+                              About
+                            </a>
+                          </li>
+                          <li><a href="#" class="nav-links">Program</a></li>
+                          <li>
+                            <a href="#works" class="nav-links">Buy Tickets</a>
+                          </li>
+                          <li>
+                            <a href="#works" class="nav-links">Sponsor</a>
+                          </li>
+                          <li><a href="#works" class="nav-links">News</a></li>
+                          <li class="cc">
+                            <a href="index.html" class="textcc">
+                              Fundraising Concert
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-          </nav>
-        </header>
-        <div class="intro">
-          <p id="introText">"Hello! Sharing World"</p>
-          <h1 class="heading mb-4">
-            Fund Raising Concert
-            <br />
-            for Displaced People
-            <br />
-            in Myanmar 2023
-          </h1>
-        </div>
-        <div class="mb-sm-5 detail-wrap">
-          <p class="detail p-2">
-            A fund raising concert for all the Displaced people in Myanmar after
-            the coup, creating a positive change with people from all over the
-            country and around the world is taking place in April, in Myanmar
-          </p>
-          <h2 class="day">2023.04.07(FRI) ~ 10(SUN)</h2>
-          <p class="place">@National Kandawgyi Gardens</p>
-        </div>
-      </section>
-      <section class="mainProgram pb-lg-4">
+            </nav>
+          </header>
+        </section>
+        <section>
+          <div class="intro">
+            <p id="introText">"Hello! Sharing World"</p>
+            <h1 class="heading mb-4 me-3">
+              Fund Raising Concert
+              <br />
+              for Displaced People
+              <br />
+              in Myanmar 2023
+            </h1>
+          </div>
+          <div class="mb-sm-5 detail-wrap">
+            <p class="detail p-2">
+              A fund raising concert for all the Displaced people in Myanmar
+              after the coup, creating a positive change with people from all
+              over the country and around the world is taking place in April, in
+              Myanmar
+            </p>
+            <h2 class="day">2023.04.07(FRI) ~ 10(SUN)</h2>
+            <p class="place">@National Kandawgyi Gardens</p>
+          </div>
+        </section>
+      </div>
+      <section class="mainProgram pb-lg-4 blurElement">
         <p class="title pt-4 pb-4 text-center">Main Program</p>
         <div class="program-wrap">
           <div class="program">
-            <div class="transbox">
+            <article class="transbox">
               <i class="fa-solid fa-pen-fancy fa-xl icon"></i>
               <p class="program-title">Autographs</p>
               <p class="programDetail">
                 Meet the famous artists, get their autographs and taking photos
                 with your idols
               </p>
-            </div>
+            </article>
           </div>
           <div class="program">
-            <div class="transbox">
+            <article class="transbox">
               <i class="fa-solid fa-guitar fa-xl icon ms-2"></i>
               <p class="program-title">Performance</p>
               <p class="programDetail">
                 Performance of different artists around the country. Enjoy pop,
                 rock and rnb music.
               </p>
-            </div>
+            </article>
           </div>
           <div class="program">
-            <div class="transbox">
+            <article class="transbox">
               <i class="fa-solid fa-gift fa-xl icon ms-2"></i>
               <p class="program-title">Presents</p>
               <p class="programDetail">
                 Get T-shirts and autographed presents from your artists in
                 return of making donations to the displaced people.
               </p>
-            </div>
+            </article>
           </div>
           <div class="program">
-            <div class="transbox">
+            <article class="transbox">
               <i class="fa-solid fa-gift fa-xl icon ms-2"></i>
               <p class="program-title">Presents</p>
               <p class="programDetail">
                 Get T-shirts and autographed presents from your artists in
                 return of making donations to the displaced people.
               </p>
-            </div>
+            </article>
           </div>
           <div class="program">
-            <div class="transbox">
+            <article class="transbox">
               <i class="fa-solid fa-gift fa-xl icon ms-2"></i>
               <p class="program-title">Presents</p>
               <p class="programDetail">
                 Get T-shirts and autographed presents from your artists in
                 return of making donations to the displaced people.
               </p>
-            </div>
+            </article>
           </div>
         </div>
         <div class="d-flex justify-content-center buttonWrapper">
@@ -157,7 +181,7 @@
           <a href="#" class="wholeProgram">SEE THE WHOLE PROGRAM</a>
         </div>
       </section>
-      <section class="featureSingers pe-4 pt-5 pb-5">
+      <section class="featureSingers pe-4 pt-5 pb-5 blurElement">
         <div
           class="d-flex flex-column justify-content-center align-items-center"
         >
@@ -165,10 +189,10 @@
           <hr class="line" />
         </div>
         <div class="mt-5">
-          <div class="singer-wrapper"></div>
+          <div class="singer-wrapper blurElement"></div>
         </div>
       </section>
-      <section class="partners pb-5">
+      <section class="partners pb-5 blurElement">
         <div
           class="d-flex flex-column justify-content-center align-items-center"
         >
@@ -202,7 +226,7 @@
           </div>
         </div>
       </section>
-      <footer class="footer-wrap mt-5">
+      <footer class="footer-wrap mt-5 blurElement">
         <div class="logo d-flex">
           <img src="./img/logo.png" alt="Iron Cross Band" />
           <span class="logoText">

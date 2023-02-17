@@ -1,52 +1,18 @@
 const brand = document.querySelector('.brand');
 const checkbox = document.querySelector('#toggle');
-const intro = document.querySelector('.intro');
 const hamburger = document.querySelector('.hamburger');
-const concert = document.querySelector('.concert');
-const aboutPast = document.querySelector('.about-past');
-const concertWrap = document.querySelector('.concert-wrap');
 const singerWrap = document.querySelector('.singer-wrapper');
-const mainProgram = document.querySelector('.mainProgram');
-const featureSingers = document.querySelector('.featureSingers');
-const partners = document.querySelector('.partners');
-const footerWrap = document.querySelector('.footer-wrap');
-const detailWrap = document.querySelector('.detail-wrap');
-
+const allElements = document.querySelectorAll('.blurElement');
 function notEmpty(element) {
   return element !== null;
 }
 function remove() {
   document.getElementById('toggle').checked = false;
-  if (notEmpty(intro)) {
-    intro.classList.remove('blur');
-  }
-  if (notEmpty(mainProgram)) {
-    mainProgram.classList.remove('blur');
-  }
-  if (notEmpty(featureSingers)) {
-    featureSingers.classList.remove('blur');
-  }
-
-  if (notEmpty(partners)) {
-    partners.classList.remove('blur');
-  }
-  if (notEmpty(footerWrap)) {
-    footerWrap.classList.remove('blur');
-  }
-  if (notEmpty(detailWrap)) {
-    detailWrap.classList.remove('blur');
-  }
-
-  if (notEmpty(concert)) {
-    concert.classList.remove('blur');
-  }
-  if (notEmpty(aboutPast)) {
-    aboutPast.classList.remove('blur');
-  }
-  if (notEmpty(concertWrap)) {
-    concertWrap.classList.remove('blur');
-  }
-
+  allElements.forEach((element) => {
+    if (notEmpty(element)) {
+      element.classList.remove('blur');
+    }
+  });
   brand.style.display = 'block';
   hamburger.style.position = 'absolute';
 }
@@ -55,36 +21,12 @@ function toggle() {
   if (checkbox.checked) {
     hamburger.style.position = 'fixed';
     brand.classList.toggle('hide');
-    if (notEmpty(intro)) {
-      intro.classList.toggle('blur');
-    }
-    if (notEmpty(mainProgram)) {
-      mainProgram.classList.toggle('blur');
-    }
-    if (notEmpty(featureSingers)) {
-      featureSingers.classList.toggle('blur');
-    }
-
-    if (notEmpty(partners)) {
-      partners.classList.toggle('blur');
-    }
-    if (notEmpty(footerWrap)) {
-      footerWrap.classList.toggle('blur');
-    }
-    if (notEmpty(detailWrap)) {
-      detailWrap.classList.toggle('blur');
-    }
-
-    if (notEmpty(concert)) {
-      concert.classList.toggle('blur');
-    }
-    if (notEmpty(aboutPast)) {
-      aboutPast.classList.toggle('blur');
-    }
-    if (notEmpty(concertWrap)) {
-      concertWrap.classList.toggle('blur');
-    }
     brand.style.display = 'none';
+    allElements.forEach((element) => {
+      if (notEmpty(element)) {
+        element.classList.toggle('blur');
+      }
+    });
   } else {
     hamburger.style.position = 'absolute';
     remove();

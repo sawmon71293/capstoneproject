@@ -22,8 +22,12 @@ body {
 .wrap {
   position: relative;
   height: auto;
+}
+
+.backdrop {
   background-image: url(./img/music.jpg);
   background-size: cover;
+  padding-bottom: 2rem;
 }
 
 /* Start of menu */
@@ -194,7 +198,7 @@ body {
 }
 
 .heading {
-  font-size: 50px;
+  font-size: 38px;
   font-weight: 700;
   -webkit-background-clip: text;
   background-image: url(./img/header.jpeg);
@@ -225,7 +229,8 @@ body {
 }
 
 .detail-wrap {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .day {
@@ -250,7 +255,7 @@ body {
   gap: 15px;
 }
 
-div.transbox {
+.transbox {
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
@@ -397,7 +402,7 @@ div.transbox {
 
 .topbar {
   display: none;
-  height: 26px;
+  height: 27px;
   background-color: #3e3e3e;
 }
 
@@ -471,6 +476,10 @@ div.transbox {
   .nav-wrap li {
     margin-right: 60px;
     margin-top: 5px;
+  }
+
+  .home {
+    display: none;
   }
 
   .nav-wrap li a {
