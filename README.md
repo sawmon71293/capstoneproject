@@ -26,9 +26,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone Project <a name="about-project"></a>
 
-**Capstone project** is an app to showcase best practices of HTML code, CSS and DOM Manipulation.
+
+# 📖 Fundraising Concerts <a name="about-project"></a>
+
+**Fundraising concert** is an app to showcase best practices of HTML code, CSS and DOM Manipulation.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
