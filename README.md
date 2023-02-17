@@ -17,21 +17,17 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [ Credits and Acknowledgements ] (#credits)
+- [🙏 Credits and Acknowledgements ](#credits)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-
-
 # 📖 Fundraising Concerts <a name="about-project"></a>
 
 **Fundraising concert** is an app to showcase best practices of HTML code, CSS and DOM Manipulation.
-
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -112,7 +108,9 @@ To run the project, execute the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Credits and Acknowledgements <a name="credits"></a>
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Credits and Acknowledgements <a name="credits"></a>
 
 - Original Design by [@Cindy Shin](https://www.behance.net/adagio07)
 
@@ -141,14 +139,6 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, please consider a star on GitHub!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse for the opportunity to dream big.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
